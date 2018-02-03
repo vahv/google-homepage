@@ -43,10 +43,32 @@ padding: 5px 12px;
 border-radius: 2px;
 }
 
-.logo_container{
-  margin-top: 200px;
+#logo_container{
+  margin-top: 180px;
 }
-.logo_container img{
+#logo_container .logo{
   display: block;
   margin: 0 auto;
+}
+#logo_container .search_bar {
+  width: 503px;
+  margin: 20px auto;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+#logo_container .search_bar:hover{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.search_bar input{
+    width: 420px; height: 36px;
+    padding-left: 6px;
+    border: none;
+    font: 14px arial;
+    outline: none;
+}
+.mic{
+  width: 24px; height: 24px;
+  position: relative;
+  left: 30px;
+  vertical-align: middle;
 }
