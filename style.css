@@ -1,0 +1,52 @@
+nav{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+nav ul{
+
+  list-style: none;
+  float: right;
+  margin: 0; padding: 0 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: arial;
+  font-size: 12px;
+  color: black;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+}
+#icon_grid{
+  display: inline-block;
+  width: 30px; height:30px;
+  vertical-align: middle;
+  background-position: -132px -38px;
+  opacity: .55;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+}
+#icon_grid:hover{ opacity: 1;}
+
+#login{
+background-image:
+-webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+color: white;
+border: 1px solid rgb(67, 135, 253);
+padding: 5px 12px;
+border-radius: 2px;
+}
+
+.logo_container{
+  margin-top: 200px;
+}
+.logo_container img{
+  display: block;
+  margin: 0 auto;
+}
